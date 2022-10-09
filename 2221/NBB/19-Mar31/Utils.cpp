@@ -5,10 +5,6 @@ using namespace std;
 namespace sdds {
    Utils ut;
    
-
-
-
-
    char* Utils::strcat(char* des, const char* src)const {
       int len = strlen(des);
       int i = 0;
